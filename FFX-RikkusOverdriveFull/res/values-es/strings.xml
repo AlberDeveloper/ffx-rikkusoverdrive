@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FFX Rikkus Overdrive</string>
+    <string name="action_settings">Settings</string>
+    <string name="first_item">Elige el primer objeto</string>
+    <string name="second_item">Elige el segundo objeto</string>
+    <string name="button_check">¡Ver resultado!</string>
+    <string name="button_extra_check">¡Ver listado de items!</string>
+
+    <string name="search_by_item">Por Item</string>
+    <string name="search_by_extra_item">Por Extra Item</string>
+    
+    <!-- ITEMS -->
+    <string-array name="itemList">
+	    <item type="string" name="potion">Poción</item>
+		<item type="string" name="hi_potion">Ultrapoción</item>
+		<item type="string" name="x_potion">Poción X</item>
+		<item type="string" name="mega_potion">Omnipoción</item>
+		<item type="string" name="ether">Éter</item>
+		<item type="string" name="turbo_ether">Éter+</item>
+		<item type="string" name="phoenix_down">Cola de fénix</item>
+		<item type="string" name="mega_phoenix">Omnifénix</item>
+		<item type="string" name="elixir">Elixir</item>
+		<item type="string" name="megalixir">Omnielixir</item>
+		<item type="string" name="antidote">Antídoto</item>
+		<item type="string" name="soft">Aguja de oro</item>
+		<item type="string" name="eye_drops">Colirio</item>
+		<item type="string" name="echo_screen">Hierba del Eco</item>
+		<item type="string" name="holy_water">Agua bendita</item>
+		<item type="string" name="remedy">Panacea</item>
+		<item type="string" name="power_distiller">Semilla de fuerza</item>
+		<item type="string" name="mana_distiller">Semilla de magia</item>
+		<item type="string" name="speed_distiller">Semilla de rapidez</item>
+		<item type="string" name="ability_distiller">Semilla de habilidad</item>
+		<item type="string" name="al_bhed_potion">Remedio albhed</item>
+		<item type="string" name="healing_water">Agua de vida</item>
+		<item type="string" name="tetra_elemental">Tetraelemental</item>
+		<item type="string" name="antarctic_wind">Aire antártico</item>
+		<item type="string" name="arctic_wind">Aire ártico</item>
+		<item type="string" name="ice_gem">Piedra Frío</item>
+		<item type="string" name="bomb_fragment">Trozo de bom</item>
+		<item type="string" name="bomb_core">Alma de bom</item>
+		<item type="string" name="fire_gem">Piedra Fuego</item>
+		<item type="string" name="electro_marble">Bola eléctrica</item>
+		<item type="string" name="lightning_marble">Bola fulminante</item>
+		<item type="string" name="lightning_gem">Piedra Rayo</item>
+		<item type="string" name="fish_scale">Escama de pez</item>
+		<item type="string" name="dragon_scale">Escama de dragón</item>
+		<item type="string" name="water_gem">Piedra Agua</item>
+		<item type="string" name="grenade">Granada</item>
+		<item type="string" name="frag_grenade">Granada antitanque</item>
+		<item type="string" name="sleeping_powder">Polvo somnífero</item>
+		<item type="string" name="dream_powder">Polvo onírico</item>
+		<item type="string" name="silence_grenade">Mina enmudecedora</item>
+		<item type="string" name="smoke_bomb">Bomba de humo</item>
+		<item type="string" name="shadow_gem">Piedra negra</item>
+		<item type="string" name="shining_gem">Piedra de luz</item>
+		<item type="string" name="blessed_gem">Piedra sacra</item>
+		<item type="string" name="supreme_gem">Piedra suprema</item>
+		<item type="string" name="poison_fang">Colmillo venenoso</item>
+		<item type="string" name="silver_hourglass">Reloj de plata</item>
+		<item type="string" name="gold_hourglass">Reloj de oro</item>
+		<item type="string" name="candle_of_life">Vela de la vida</item>
+		<item type="string" name="petrify_grenade">Granada pétrea</item>
+		<item type="string" name="farplane_shadow">Sombra del Etéreo</item>
+		<item type="string" name="farplane_wind">Viento del Etéreo</item>
+		<item type="string" name="designer_wallet">Cartera repleta</item>
+		<item type="string" name="dark_matter">Materia oscura</item>
+		<item type="string" name="chocobo_wing">Cola de chocobo</item>
+		<item type="string" name="chocobo_feather">Pluma de chocobo</item>
+		<item type="string" name="lunar_curtain">Manto de luna</item>
+		<item type="string" name="light_curtain">Manto de luz</item>
+		<item type="string" name="star_curtain">Manto de estrellas</item>
+		<item type="string" name="healing_spring">Fluido vitalizante</item>
+		<item type="string" name="mana_spring">Fluido de magia</item>
+		<item type="string" name="stamina_spring">Fluido de salud</item>
+		<item type="string" name="soul_spring">Fluido de vida</item>
+		<item type="string" name="purifying_salt">Sal purificante</item>
+		<item type="string" name="stamina_tablet">Brebaje de salud</item>
+		<item type="string" name="mana_tablet">Brebaje mágico</item>
+		<item type="string" name="twin_stars">Dos estrellas</item>
+		<item type="string" name="stamina_tonic">Pócima de salud</item>
+		<item type="string" name="mana_tonic">Pócima mágica</item>
+		<item type="string" name="three_stars">Tres estrellas</item>
+		<item type="string" name="power_sphere">Esfera de vigor</item>
+		<item type="string" name="mana_sphere">Esfera de magia</item>
+		<item type="string" name="speed_sphere">Esfera de agilidad</item>
+		<item type="string" name="ability_sphere">Esfera habilidad</item>
+		<item type="string" name="fortune_sphere">Esfera de fortuna</item>
+		<item type="string" name="attribute_sphere">Esfera de cifras</item>
+		<item type="string" name="special_sphere">Esfera especial</item>
+		<item type="string" name="skill_sphere">Esfera técnica</item>
+		<item type="string" name="wht_magic_sphere">Esfera blanca</item>
+		<item type="string" name="blk_magic_sphere">Esfera negra</item>
+		<item type="string" name="master_sphere">Esfera maestra</item>
+		<item type="string" name="lv_1_key_sphere">Esfera llave nv. 1</item>
+		<item type="string" name="lv_2_key_sphere">Esfera llave nv. 2</item>
+		<item type="string" name="lv_3_key_sphere">Esfera llave nv. 3</item>
+		<item type="string" name="lv_4_key_sphere">Esfera llave nv. 4</item>
+		<item type="string" name="hp_sphere">Esfera de VIT</item>
+		<item type="string" name="mp_sphere">Esfera de PM</item>
+		<item type="string" name="strength_sphere">Esfera de Fuerza</item>
+		<item type="string" name="defence_sphere">Esfera Def. física</item>
+		<item type="string" name="magic_sphere">Esfera Poder mág.</item>
+		<item type="string" name="magic_def_sphere">Esfera Def. mágica</item>
+		<item type="string" name="agility_sphere">Esfera de Rapidez</item>
+		<item type="string" name="evasion_sphere">Esfera de Evasión</item>
+		<item type="string" name="accuracy_sphere">Esfera de Puntería</item>
+		<item type="string" name="luck_sphere">Esfera de Suerte</item>
+		<item type="string" name="clear_sphere">Esfera supresora</item>
+		<item type="string" name="return_sphere">Esfera de retorno</item>
+		<item type="string" name="friend_sphere">Esfera amiga</item>
+		<item type="string" name="teleport_sphere">Esfera warp</item>
+		<item type="string" name="warp_sphere">Esfera omni</item>
+		<item type="string" name="map">Mapa</item>
+		<item type="string" name="rename_card">Cáliz bautismal</item>
+		<item type="string" name="musk">Estimulante</item>
+		<item type="string" name="hypello_potion">Remedio hypello</item>
+		<item type="string" name="shining_thorn">Púa exorcista</item>
+		<item type="string" name="pendulum">Péndulo</item>
+		<item type="string" name="amulet">Amuleto</item>
+		<item type="string" name="door_to_tomorrow">Puerta al mañana</item>
+		<item type="string" name="wings_to_discovery">Alas misteriosas</item>
+		<item type="string" name="gamblers_spirit">Alma lúdica</item>
+		<item type="string" name="underdogs_secret">Llave de la victoria</item>
+		<item type="string" name="winning_formula">Táctica triunfal</item>    
+	</string-array>    
+    
+    <!-- EXTRA ITEMS (LIST)-->
+    <string-array name="extraItemList">
+	    <item type="string" name="extra_abaddon_flame">Llamas de Abadón</item>
+		<item type="string" name="extra_aqua_toxin">Marea tóxica</item>
+		<item type="string" name="extra_black_hole">Agujero negro</item>
+		<item type="string" name="extra_black_ice">Hielo mortal</item>
+		<item type="string" name="extra_blaster_mine">Mina tóxica</item>
+		<item type="string" name="extra_brimstone">Fuego del averno</item>
+		<item type="string" name="extra_burning_soul">Alma ardiente</item>
+		<item type="string" name="extra_calamity_bomb">Bomba calamitosa</item>
+		<item type="string" name="extra_chaos_grenade">Granada caótica</item>
+		<item type="string" name="extra_cluster_bomb">Bomba de dispersión</item>
+		<item type="string" name="extra_dark_rain">Lluvia oscura</item>
+		<item type="string" name="extra_eccentrick">Alta motivación</item>
+		<item type="string" name="extra_electroshock">Electroshock</item>	
+		<item type="string" name="extra_elixir">Elixir</item>
+		<item type="string" name="extra_final_elixir">Elixir final</item>
+		<item type="string" name="extra_final_phoenix">Fénix supremo</item>
+		<item type="string" name="extra_firestorm">Tormenta de fuego</item>
+		<item type="string" name="extra_flash_flood">Masa líquida</item>
+		<item type="string" name="extra_frag_grenade">Granada antitanque</item>
+		<item type="string" name="extra_freedom">Libertad</item>
+		<item type="string" name="extra_freedom_x">Omnilibertad</item>
+		<item type="string" name="extra_grenade">Granada</item>
+		<item type="string" name="extra_hazardous_shell">Proyectil letal</item>
+		<item type="string" name="extra_heat_blaster">Bomba de calor</item>
+		<item type="string" name="extra_hero_drink">Sal heroica</item>
+		<item type="string" name="extra_hot_spurs">Pilas puestas</item>
+		<item type="string" name="extra_hyper_mana">Mente doble omni+</item>
+		<item type="string" name="extra_hyper_mighty_g">Barrera total ++</item>
+		<item type="string" name="extra_hyper_nulall">UltraAntiTodo +</item>
+		<item type="string" name="extra_hyper_vitality">Vida doble omni+</item>
+		<item type="string" name="extra_icefall">Ventisca de hielo</item>
+		<item type="string" name="extra_krysta">Cristalino</item>
+		<item type="string" name="extra_lightning_bolt">Rayos fulminantes</item>
+		<item type="string" name="extra_mana">Mente doble</item>
+		<item type="string" name="extra_mega_mana">Mente doble omni</item>
+		<item type="string" name="extra_mega_nulall">OmniAntiTodo</item>
+		<item type="string" name="extra_mega_phoenix">Omnifénix</item>
+		<item type="string" name="extra_mega_vitality">Vida doble omni</item>
+		<item type="string" name="extra_megalixir">Omnielixir</item>
+		<item type="string" name="extra_mighty_g">Barrera total</item>
+		<item type="string" name="extra_mighty_wall">Muro de poder</item>
+		<item type="string" name="extra_miracle_drink">Sal sagrada</item>
+		<item type="string" name="extra_nega_burst">Implosión</item>
+		<item type="string" name="extra_nulall">AntiTodo</item>
+		<item type="string" name="extra_panacea">Cura total</item>
+		<item type="string" name="extra_pineapple">"Piña"</item>
+		<item type="string" name="extra_potato_masher">Bomba de mortero</item>
+		<item type="string" name="extra_quartet_of_9">Cuarteto 9</item>
+		<item type="string" name="extra_rolling_thunder">Tormenta eléctrica</item>
+		<item type="string" name="extra_snow_flurry">Nieve fría</item>
+		<item type="string" name="extra_sunburst">Supernova</item>
+		<item type="string" name="extra_super_elixir">Super elixir</item>
+		<item type="string" name="extra_super_mighty_g">Barrera total +</item>
+		<item type="string" name="extra_tallboy">"Tall Boy"</item>
+		<item type="string" name="extra_thunderblast">Lluvia de rayos</item>
+		<item type="string" name="extra_thunderbolt">Descarga eléctrica</item>
+		<item type="string" name="extra_tidal_wave">Ola sísmica</item>
+		<item type="string" name="extra_trio_of_9999">Cuarteto 99</item>
+		<item type="string" name="extra_ultra_cure">Cura ultra</item>
+		<item type="string" name="extra_ultra_nulall">UltraAntiTodo</item>
+		<item type="string" name="extra_ultra_potion">Ultrapoción++</item>
+		<item type="string" name="extra_vitality">Vida doble</item>
+		<item type="string" name="extra_waterfall">Cascada</item>
+		<item type="string" name="extra_winter_storm">Tormenta invernal</item>
+	</string-array>
+	
+    <!-- EXTRA ITEMS (Strings)-->
+   	<string name="extra_abaddon_flame">Llamas de Abadón</string>
+	<string name="extra_aqua_toxin">Marea tóxica</string>
+	<string name="extra_black_hole">Agujero negro</string>
+	<string name="extra_black_ice">Hielo mortal</string>
+	<string name="extra_blaster_mine">Mina tóxica</string>
+	<string name="extra_brimstone">Fuego del averno</string>
+	<string name="extra_burning_soul">Alma ardiente</string>
+	<string name="extra_calamity_bomb">Bomba calamitosa</string>
+	<string name="extra_chaos_grenade">Granada caótica</string>
+	<string name="extra_cluster_bomb">Bomba de dispersión</string>
+	<string name="extra_dark_rain">Lluvia oscura</string>
+	<string name="extra_eccentrick">Alta motivación</string>
+	<string name="extra_electroshock">Electroshock</string>	
+	<string name="extra_elixir">Elixir</string>
+	<string name="extra_final_elixir">Elixir final</string>
+	<string name="extra_final_phoenix">Fénix supremo</string>
+	<string name="extra_firestorm">Tormenta de fuego</string>
+	<string name="extra_flash_flood">Masa líquida</string>
+	<string name="extra_frag_grenade">Granada antitanque</string>
+	<string name="extra_freedom">Libertad</string>
+	<string name="extra_freedom_x">Omnilibertad</string>
+	<string name="extra_grenade">Granada</string>
+	<string name="extra_hazardous_shell">Proyectil letal</string>
+	<string name="extra_heat_blaster">Bomba de calor</string>
+	<string name="extra_hero_drink">Sal heroica</string>
+	<string name="extra_hot_spurs">Pilas puestas</string>
+	<string name="extra_hyper_mana">Mente doble omni+</string>
+	<string name="extra_hyper_mighty_g">Barrera total ++</string>
+	<string name="extra_hyper_nulall">UltraAntiTodo +</string>
+	<string name="extra_hyper_vitality">Vida doble omni+</string>
+	<string name="extra_icefall">Ventisca de hielo</string>
+	<string name="extra_krysta">Cristalino</string>
+	<string name="extra_lightning_bolt">Rayos fulminantes</string>
+	<string name="extra_mana">Mente doble</string>
+	<string name="extra_mega_mana">Mente doble omni</string>
+	<string name="extra_mega_nulall">OmniAntiTodo</string>
+	<string name="extra_mega_phoenix">Omnifénix</string>
+	<string name="extra_mega_vitality">Vida doble omni</string>
+	<string name="extra_megalixir">Omnielixir</string>
+	<string name="extra_mighty_g">Barrera total</string>
+	<string name="extra_mighty_wall">Muro de poder</string>
+	<string name="extra_miracle_drink">Sal sagrada</string>
+	<string name="extra_nega_burst">Implosión</string>
+	<string name="extra_nulall">AntiTodo</string>
+	<string name="extra_panacea">Cura total</string>
+	<string name="extra_pineapple">"Piña"</string>
+	<string name="extra_potato_masher">Bomba de mortero</string>
+	<string name="extra_quartet_of_9">Cuarteto 9</string>
+	<string name="extra_rolling_thunder">Tormenta eléctrica</string>
+	<string name="extra_snow_flurry">Nieve fría</string>
+	<string name="extra_sunburst">Supernova</string>
+	<string name="extra_super_elixir">Super elixir</string>
+	<string name="extra_super_mighty_g">Barrera total +</string>
+	<string name="extra_tallboy">"Tall Boy"</string>
+	<string name="extra_thunderblast">Lluvia de rayos</string>
+	<string name="extra_thunderbolt">Descarga eléctrica</string>
+	<string name="extra_tidal_wave">Ola sísmica</string>
+	<string name="extra_trio_of_9999">Cuarteto 99</string>
+	<string name="extra_ultra_cure">Cura ultra</string>
+	<string name="extra_ultra_nulall">UltraAntiTodo</string>
+	<string name="extra_ultra_potion">Ultrapoción++</string>
+	<string name="extra_vitality">Vida doble</string>
+	<string name="extra_waterfall">Cascada</string>
+	<string name="extra_winter_storm">Tormenta invernal</string>
+</resources>

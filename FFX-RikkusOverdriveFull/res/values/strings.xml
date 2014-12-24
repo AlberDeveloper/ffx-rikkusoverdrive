@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FFX Rikkus Overdrive</string>
+    <string name="action_settings">Settings</string>
+    <string name="first_item">Choose 1st item</string>
+    <string name="second_item">Choose 2nd item</string>
+    <string name="button_check">See result!</string>
+    <string name="button_extra_check">See list of items!</string>
+    <string name="search_by_item">By Item</string>
+    <string name="search_by_extra_item">By Extra Item</string>
+
+    <!-- ITEMS -->
+    <string-array name="itemList">
+        <item name="potion" type="string">Potion</item>
+        <item name="hi_potion" type="string">Hi-Potion</item>
+        <item name="x_potion" type="string">X-Potion</item>
+        <item name="mega_potion" type="string">Mega-Potion</item>
+        <item name="ether" type="string">Ether</item>
+        <item name="turbo_ether" type="string">Turbo Ether</item>
+        <item name="phoenix_down" type="string">Phoenix Down</item>
+        <item name="mega_phoenix" type="string">Mega Phoenix</item>
+        <item name="elixir" type="string">Elixir</item>
+        <item name="megalixir" type="string">Megalixir</item>
+        <item name="antidote" type="string">Antidote</item>
+        <item name="soft" type="string">Soft</item>
+        <item name="eye_drops" type="string">Eye Drops</item>
+        <item name="echo_screen" type="string">Echo Screen</item>
+        <item name="holy_water" type="string">Holy Water</item>
+        <item name="remedy" type="string">Remedy</item>
+        <item name="power_distiller" type="string">Power Distiller</item>
+        <item name="mana_distiller" type="string">Mana Distiller</item>
+        <item name="speed_distiller" type="string">Speed Distiller</item>
+        <item name="ability_distiller" type="string">Ability Distiller</item>
+        <item name="al_bhed_potion" type="string">Al Bhed Potion</item>
+        <item name="healing_water" type="string">Healing Water</item>
+        <item name="tetra_elemental" type="string">Tetra Elemental</item>
+        <item name="antarctic_wind" type="string">Antarctic Wind</item>
+        <item name="arctic_wind" type="string">Arctic Wind</item>
+        <item name="ice_gem" type="string">Ice Gem</item>
+        <item name="bomb_fragment" type="string">Bomb Fragment</item>
+        <item name="bomb_core" type="string">Bomb Core</item>
+        <item name="fire_gem" type="string">Fire Gem</item>
+        <item name="electro_marble" type="string">Electro Marble</item>
+        <item name="lightning_marble" type="string">Lightning Marble</item>
+        <item name="lightning_gem" type="string">Lightning Gem</item>
+        <item name="fish_scale" type="string">Fish Scale</item>
+        <item name="dragon_scale" type="string">Dragon Scale</item>
+        <item name="water_gem" type="string">Water Gem</item>
+        <item name="grenade" type="string">Grenade</item>
+        <item name="frag_grenade" type="string">Frag Grenade</item>
+        <item name="sleeping_powder" type="string">Sleeping Powder</item>
+        <item name="dream_powder" type="string">Dream Powder</item>
+        <item name="silence_grenade" type="string">Silence Grenade</item>
+        <item name="smoke_bomb" type="string">Smoke Bomb</item>
+        <item name="shadow_gem" type="string">Shadow Gem</item>
+        <item name="shining_gem" type="string">Shining Gem</item>
+        <item name="blessed_gem" type="string">Blessed Gem</item>
+        <item name="supreme_gem" type="string">Supreme Gem</item>
+        <item name="poison_fang" type="string">Poison Fang</item>
+        <item name="silver_hourglass" type="string">Silver Hourglass</item>
+        <item name="gold_hourglass" type="string">Gold Hourglass</item>
+        <item name="candle_of_life" type="string">Candle of Life</item>
+        <item name="petrify_grenade" type="string">Petrify Grenade</item>
+        <item name="farplane_shadow" type="string">Farplane Shadow</item>
+        <item name="farplane_wind" type="string">Farplane Wind</item>
+        <item name="designer_wallet" type="string">Designer Wallet</item>
+        <item name="dark_matter" type="string">Dark Matter</item>
+        <item name="chocobo_wing" type="string">Chocobo Wing</item>
+        <item name="chocobo_feather" type="string">Chocobo Feather</item>
+        <item name="lunar_curtain" type="string">Lunar Curtain</item>
+        <item name="light_curtain" type="string">Light Curtain</item>
+        <item name="star_curtain" type="string">Star Curtain</item>
+        <item name="healing_spring" type="string">Healing Spring</item>
+        <item name="mana_spring" type="string">Mana Spring</item>
+        <item name="stamina_spring" type="string">Stamina Spring</item>
+        <item name="soul_spring" type="string">Soul Spring</item>
+        <item name="purifying_salt" type="string">Purifying Salt</item>
+        <item name="stamina_tablet" type="string">Stamina Tablet</item>
+        <item name="mana_tablet" type="string">Mana Tablet</item>
+        <item name="twin_stars" type="string">Twin Stars</item>
+        <item name="stamina_tonic" type="string">Stamina Tonic</item>
+        <item name="mana_tonic" type="string">Mana Tonic</item>
+        <item name="three_stars" type="string">Three Stars</item>
+        <item name="power_sphere" type="string">Power Sphere</item>
+        <item name="mana_sphere" type="string">Mana Sphere</item>
+        <item name="speed_sphere" type="string">Speed Sphere</item>
+        <item name="ability_sphere" type="string">Ability Sphere</item>
+        <item name="fortune_sphere" type="string">Fortune Sphere</item>
+        <item name="attribute_sphere" type="string">Attribute Sphere</item>
+        <item name="special_sphere" type="string">Special Sphere</item>
+        <item name="skill_sphere" type="string">Skill Sphere</item>
+        <item name="wht_magic_sphere" type="string">Wht Magic Sphere</item>
+        <item name="blk_magic_sphere" type="string">Blk Magic Sphere</item>
+        <item name="master_sphere" type="string">Master Sphere</item>
+        <item name="lv_1_key_sphere" type="string">Lv.1 Key Sphere</item>
+        <item name="lv_2_key_sphere" type="string">Lv.2 Key Sphere</item>
+        <item name="lv_3_key_sphere" type="string">Lv.3 Key Sphere</item>
+        <item name="lv_4_key_sphere" type="string">Lv.4 Key Sphere</item>
+        <item name="hp_sphere" type="string">HP Sphere</item>
+        <item name="mp_sphere" type="string">MP Sphere</item>
+        <item name="strength_sphere" type="string">Strength Sphere</item>
+        <item name="defence_sphere" type="string">Defence Sphere</item>
+        <item name="magic_sphere" type="string">Magic Sphere</item>
+        <item name="magic_def_sphere" type="string">Magic Def Sphere</item>
+        <item name="agility_sphere" type="string">Agility Sphere</item>
+        <item name="evasion_sphere" type="string">Evasion Sphere</item>
+        <item name="accuracy_sphere" type="string">Accuracy Sphere</item>
+        <item name="luck_sphere" type="string">Luck Sphere</item>
+        <item name="clear_sphere" type="string">Clear Sphere</item>
+        <item name="return_sphere" type="string">Return Sphere</item>
+        <item name="friend_sphere" type="string">Friend Sphere</item>
+        <item name="teleport_sphere" type="string">Teleport Sphere</item>
+        <item name="warp_sphere" type="string">Warp Sphere</item>
+        <item name="map" type="string">Map</item>
+        <item name="rename_card" type="string">Rename Card</item>
+        <item name="musk" type="string">Musk</item>
+        <item name="hypello_potion" type="string">Hypello Potion</item>
+        <item name="shining_thorn" type="string">Shining Thorn</item>
+        <item name="pendulum" type="string">Pendulum</item>
+        <item name="amulet" type="string">Amulet</item>
+        <item name="door_to_tomorrow" type="string">Door to Tomorrow</item>
+        <item name="wings_to_discovery" type="string">Wings to Discovery</item>
+        <item name="gamblers_spirit" type="string">Gambler\'s Spirit</item>
+        <item name="underdogs_secret" type="string">Underdog\'s Secret</item>
+        <item name="winning_formula" type="string">Winning Formula</item>
+    </string-array>
+
+    <!-- EXTRA ITEMS (LIST) -->
+    <string-array name="extraItemList">
+        <item name="extra_abaddon_flame" type="string">Abaddon Flame</item>
+        <item name="extra_aqua_toxin" type="string">Aqua Toxin</item>
+        <item name="extra_black_hole" type="string">Black Hole</item>
+        <item name="extra_black_ice" type="string">Black Ice</item>
+        <item name="extra_blaster_mine" type="string">Blaster Mine</item>
+        <item name="extra_brimstone" type="string">Brimstone</item>
+        <item name="extra_burning_soul" type="string">Burning Soul</item>
+        <item name="extra_calamity_bomb" type="string">Calamity Bomb</item>
+        <item name="extra_chaos_grenade" type="string">Chaos Grenade</item>
+        <item name="extra_cluster_bomb" type="string">Cluster Bomb</item>
+        <item name="extra_dark_rain" type="string">Dark Rain</item>
+        <item name="extra_eccentrick" type="string">Eccentrick</item>
+        <item name="extra_electroshock" type="string">Electroshock</item>
+        <item name="extra_elixir" type="string">Elixir</item>
+        <item name="extra_final_elixir" type="string">Final Elixir</item>
+        <item name="extra_final_phoenix" type="string">Final Phoenix</item>
+        <item name="extra_firestorm" type="string">Firestorm</item>
+        <item name="extra_flash_flood" type="string">Flash Flood</item>
+        <item name="extra_frag_grenade" type="string">Frag Grenade</item>
+        <item name="extra_freedom" type="string">Freedom</item>
+        <item name="extra_freedom_x" type="string">Freedom X</item>
+        <item name="extra_grenade" type="string">Grenade</item>
+        <item name="extra_hazardous_shell" type="string">Hazardous Shell</item>
+        <item name="extra_heat_blaster" type="string">Heat Blaster</item>
+        <item name="extra_hero_drink" type="string">Hero Drink</item>
+        <item name="extra_hot_spurs" type="string">Hot Spurs</item>
+        <item name="extra_hyper_mana" type="string">Hyper Mana</item>
+        <item name="extra_hyper_mighty_g" type="string">Hyper Mighty G</item>
+        <item name="extra_hyper_nulall" type="string">Hyper NulAll</item>
+        <item name="extra_hyper_vitality" type="string">Hyper Vitality</item>
+        <item name="extra_icefall" type="string">Icefall</item>
+        <item name="extra_krysta" type="string">Krysta</item>
+        <item name="extra_lightning_bolt" type="string">Lightning Bolt</item>
+        <item name="extra_mana" type="string">Mana</item>
+        <item name="extra_mega_mana" type="string">Mega Mana</item>
+        <item name="extra_mega_nulall" type="string">Mega NulAll</item>
+        <item name="extra_mega_phoenix" type="string">Mega Phoenix</item>
+        <item name="extra_mega_vitality" type="string">Mega Vitality</item>
+        <item name="extra_megalixir" type="string">Megalixir</item>
+        <item name="extra_mighty_g" type="string">Mighty G</item>
+        <item name="extra_mighty_wall" type="string">Mighty Wall</item>
+        <item name="extra_miracle_drink" type="string">Miracle Drink</item>
+        <item name="extra_nega_burst" type="string">Nega Burst</item>
+        <item name="extra_nulall" type="string">NulAll</item>
+        <item name="extra_panacea" type="string">Panacea</item>
+        <item name="extra_pineapple" type="string">Pineapple</item>
+        <item name="extra_potato_masher" type="string">Potato Masher</item>
+        <item name="extra_quartet_of_9" type="string">Quartet of 9</item>
+        <item name="extra_rolling_thunder" type="string">Rolling Thunder</item>
+        <item name="extra_snow_flurry" type="string">Snow Flurry</item>
+        <item name="extra_sunburst" type="string">Sunburst</item>
+        <item name="extra_super_elixir" type="string">Super Elixir</item>
+        <item name="extra_super_mighty_g" type="string">Super Mighty G</item>
+        <item name="extra_tallboy" type="string">Tallboy</item>
+        <item name="extra_thunderblast" type="string">Thunderblast</item>
+        <item name="extra_thunderbolt" type="string">Thunderbolt</item>
+        <item name="extra_tidal_wave" type="string">Tidal Wave</item>
+        <item name="extra_trio_of_9999" type="string">Trio of 9999</item>
+        <item name="extra_ultra_cure" type="string">Ultra Cure</item>
+        <item name="extra_ultra_nulall" type="string">Ultra NulAll</item>
+        <item name="extra_ultra_potion" type="string">Ultra Potion</item>
+        <item name="extra_vitality" type="string">Vitality</item>
+        <item name="extra_waterfall" type="string">Waterfall</item>
+        <item name="extra_winter_storm" type="string">Winter Storm</item>
+    </string-array>
+
+    <!-- EXTRA ITEMS (Strings) -->
+    <string name="extra_abaddon_flame">Abaddon Flame</string>
+    <string name="extra_aqua_toxin">Aqua Toxin</string>
+    <string name="extra_black_hole">Black Hole</string>
+    <string name="extra_black_ice">Black Ice</string>
+    <string name="extra_blaster_mine">Blaster Mine</string>
+    <string name="extra_brimstone">Brimstone</string>
+    <string name="extra_burning_soul">Burning Soul</string>
+    <string name="extra_calamity_bomb">Calamity Bomb</string>
+    <string name="extra_chaos_grenade">Chaos Grenade</string>
+    <string name="extra_cluster_bomb">Cluster Bomb</string>
+    <string name="extra_dark_rain">Dark Rain</string>
+    <string name="extra_eccentrick">Eccentrick</string>
+    <string name="extra_electroshock">Electroshock</string>
+    <string name="extra_elixir">Elixir</string>
+    <string name="extra_final_elixir">Final Elixir</string>
+    <string name="extra_final_phoenix">Final Phoenix</string>
+    <string name="extra_firestorm">Firestorm</string>
+    <string name="extra_flash_flood">Flash Flood</string>
+    <string name="extra_frag_grenade">Frag Grenade</string>
+    <string name="extra_freedom">Freedom</string>
+    <string name="extra_freedom_x">Freedom X</string>
+    <string name="extra_grenade">Grenade</string>
+    <string name="extra_hazardous_shell">Hazardous Shell</string>
+    <string name="extra_heat_blaster">Heat Blaster</string>
+    <string name="extra_hero_drink">Hero Drink</string>
+    <string name="extra_hot_spurs">Hot Spurs</string>
+    <string name="extra_hyper_mana">Hyper Mana</string>
+    <string name="extra_hyper_mighty_g">Hyper Mighty G</string>
+    <string name="extra_hyper_nulall">Hyper NulAll</string>
+    <string name="extra_hyper_vitality">Hyper Vitality</string>
+    <string name="extra_icefall">Icefall</string>
+    <string name="extra_krysta">Krysta</string>
+    <string name="extra_lightning_bolt">Lightning Bolt</string>
+    <string name="extra_mana">Mana</string>
+    <string name="extra_mega_mana">Mega Mana</string>
+    <string name="extra_mega_nulall">Mega NulAll</string>
+    <string name="extra_mega_phoenix">Mega Phoenix</string>
+    <string name="extra_mega_vitality">Mega Vitality</string>
+    <string name="extra_megalixir">Megalixir</string>
+    <string name="extra_mighty_g">Mighty G</string>
+    <string name="extra_mighty_wall">Mighty Wall</string>
+    <string name="extra_miracle_drink">Miracle Drink</string>
+    <string name="extra_nega_burst">Nega Burst</string>
+    <string name="extra_nulall">NulAll</string>
+    <string name="extra_panacea">Panacea</string>
+    <string name="extra_pineapple">Pineapple</string>
+    <string name="extra_potato_masher">Potato Masher</string>
+    <string name="extra_quartet_of_9">Quartet of 9</string>
+    <string name="extra_rolling_thunder">Rolling Thunder</string>
+    <string name="extra_snow_flurry">Snow Flurry</string>
+    <string name="extra_sunburst">Sunburst</string>
+    <string name="extra_super_elixir">Super Elixir</string>
+    <string name="extra_super_mighty_g">Super Mighty G</string>
+    <string name="extra_tallboy">Tallboy</string>
+    <string name="extra_thunderblast">Thunderblast</string>
+    <string name="extra_thunderbolt">Thunderbolt</string>
+    <string name="extra_tidal_wave">Tidal Wave</string>
+    <string name="extra_trio_of_9999">Trio of 9999</string>
+    <string name="extra_ultra_cure">Ultra Cure</string>
+    <string name="extra_ultra_nulall">Ultra NulAll</string>
+    <string name="extra_ultra_potion">Ultra Potion</string>
+    <string name="extra_vitality">Vitality</string>
+    <string name="extra_waterfall">Waterfall</string>
+    <string name="extra_winter_storm">Winter Storm</string>
+</resources>

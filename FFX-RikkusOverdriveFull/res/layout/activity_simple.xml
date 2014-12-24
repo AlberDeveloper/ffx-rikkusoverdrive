@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".SimpleActivity" >
+
+	<TabHost android:id="@+id/tabhost" android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+
+		<LinearLayout android:layout_width="match_parent"
+			android:layout_height="match_parent" android:orientation="vertical">
+
+			<TabWidget
+			    android:id="@android:id/tabs"
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content" />
+
+			<FrameLayout android:id="@android:id/tabcontent"
+				android:layout_width="match_parent" android:layout_height="match_parent">
+
+				<RelativeLayout android:id="@+id/tabSimpleOverdrive"
+					android:layout_width="match_parent" android:layout_height="match_parent"
+					android:gravity="center_horizontal">
+
+					<TextView android:id="@+id/textView_first_item"
+						android:layout_width="wrap_content" android:layout_height="wrap_content"
+						android:layout_centerHorizontal="true"
+						android:layout_marginTop="10dp" android:text="@string/first_item" />
+
+					<Spinner android:id="@+id/spinItem1" android:layout_width="wrap_content"
+						android:layout_height="wrap_content" android:layout_below="@id/textView_first_item"
+						android:layout_centerHorizontal="true"
+						android:layout_marginTop="10dp" android:entries="@array/itemList" />
+
+					<TextView android:id="@+id/textView_second_item"
+						android:layout_width="wrap_content" android:layout_height="wrap_content"
+						android:layout_below="@id/spinItem1" android:layout_centerHorizontal="true"
+						android:layout_marginTop="10dp" android:text="@string/second_item" />
+
+					<Spinner android:id="@+id/spinItem2" android:layout_width="wrap_content"
+						android:layout_height="wrap_content" android:layout_below="@id/textView_second_item"
+						android:layout_centerHorizontal="true"
+						android:layout_marginTop="10dp" android:entries="@array/itemList" />
+
+					<Button android:id="@+id/buttonCheck" android:layout_width="wrap_content"
+						android:layout_height="wrap_content" android:layout_below="@id/spinItem2"
+						android:layout_centerHorizontal="true"
+						android:layout_marginTop="10dp" android:text="@string/button_check" />
+
+					<TextView android:id="@+id/textViewResult"
+						android:layout_width="wrap_content" android:layout_height="wrap_content"
+						android:layout_below="@id/buttonCheck" android:layout_centerHorizontal="true"
+						android:layout_marginTop="10dp" android:text="" />
+				</RelativeLayout>
+
+				<RelativeLayout android:id="@+id/tabExtraOverdrive"
+					android:layout_width="match_parent" android:layout_height="match_parent"
+					android:gravity="center_horizontal">
+				    
+				    <Spinner android:id="@+id/spinExtraItem" android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_centerHorizontal="true"
+						android:layout_marginTop="10dp" android:entries="@array/extraItemList" />
+				    <Button android:id="@+id/buttonExtraCheck" android:layout_width="wrap_content"
+						android:layout_height="wrap_content" android:layout_below="@id/spinExtraItem"
+						android:layout_centerHorizontal="true"
+						android:layout_marginTop="10dp" android:text="@string/button_extra_check" />
+				    <TextView android:id="@+id/textViewExtraResult"
+						android:layout_width="wrap_content" android:layout_height="wrap_content"
+						android:layout_below="@id/buttonExtraCheck" android:gravity="left"
+						android:layout_marginTop="10dp" android:text="" />
+				</RelativeLayout>
+
+				
+			</FrameLayout>
+		</LinearLayout>
+	</TabHost>
+
+</ScrollView>
