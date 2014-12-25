@@ -32,7 +32,7 @@ public class SimpleActivity extends Activity implements View.OnClickListener,
 	private Spinner spinItem2;
 	private Spinner spinExtraItem;
 	private Button buttonCheck;
-	private Button buttonExtraCheck;
+	//private Button buttonExtraCheck;
 	private TextView textViewResult;
 	private TextView textViewExtraResult;
 	private TabHost th;
@@ -54,14 +54,29 @@ public class SimpleActivity extends Activity implements View.OnClickListener,
 		spinItem2 = (Spinner) findViewById(R.id.spinItem2);
 		spinExtraItem = (Spinner) findViewById(R.id.spinExtraItem);
 		buttonCheck = (Button) findViewById(R.id.buttonCheck);
-		buttonExtraCheck = (Button) findViewById(R.id.buttonExtraCheck);
+		//buttonExtraCheck = (Button) findViewById(R.id.buttonExtraCheck);
 		textViewResult = (TextView) findViewById(R.id.textViewResult);
 		textViewExtraResult = (TextView) findViewById(R.id.textViewExtraResult);
 
 		spinItem1.setOnItemSelectedListener(this);
 		spinItem2.setOnItemSelectedListener(this);
+		
+		spinExtraItem.setOnItemSelectedListener(new OnItemSelectedListener() {
+
+		    @Override
+		    public void onItemSelected(AdapterView<?> parentView, View selectedItemView, int position, long id) {
+            	checkItemsForExtraItem();
+		    }
+
+		    @Override
+		    public void onNothingSelected(AdapterView<?> parentView) {
+		        // your code here
+		    }
+		});		
+		
+		
 		buttonCheck.setOnClickListener(this);
-		buttonExtraCheck.setOnClickListener(this);
+		//buttonExtraCheck.setOnClickListener(this);
 
 		tab1Title = getString(getResources().getIdentifier("search_by_item",
 				"string", getPackageName()));
@@ -164,8 +179,8 @@ public class SimpleActivity extends Activity implements View.OnClickListener,
 		}
 	}
 
-	private void checkItemsForExtraItem(int extraItem) {
-		int y = 0, i = 0, mainItemId, secondaryItemId;
+	private void checkItemsForExtraItem() {
+		int y = 0, i = 0, mainItemId, secondaryItemId, extraItem = spinExtraItem.getSelectedItemPosition();
 		boolean end = false, extraItemFind = false;
 		ItemAux itemAux;
 		ArrayList<ItemAux> printList = new ArrayList<ItemAux>();
@@ -262,7 +277,6 @@ public class SimpleActivity extends Activity implements View.OnClickListener,
 	public void onItemSelected(AdapterView<?> arg0, View arg1, int arg2,
 			long arg3) {
 		// TODO Auto-generated method stub
-
 	}
 
 	@Override
@@ -280,14 +294,11 @@ public class SimpleActivity extends Activity implements View.OnClickListener,
 			y = spinItem2.getSelectedItemPosition();
 			checkExtraItem(x, y);
 			break;
-		case R.id.buttonExtraCheck:
+		/*case R.id.buttonExtraCheck:
 			y = spinExtraItem.getSelectedItemPosition();
-			checkItemsForExtraItem(y);
-			break;		
+			checkItemsForExtraItem();
+			break;	*/	
 			
 		}
 	}
-	
-
-
 }

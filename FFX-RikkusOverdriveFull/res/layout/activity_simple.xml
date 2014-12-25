@@ -66,13 +66,13 @@
 						android:layout_height="wrap_content"
 						android:layout_centerHorizontal="true"
 						android:layout_marginTop="10dp" android:entries="@array/extraItemList" />
-				    <Button android:id="@+id/buttonExtraCheck" android:layout_width="wrap_content"
+				    <!--Button android:id="@+id/buttonExtraCheck" android:layout_width="wrap_content"
 						android:layout_height="wrap_content" android:layout_below="@id/spinExtraItem"
 						android:layout_centerHorizontal="true"
-						android:layout_marginTop="10dp" android:text="@string/button_extra_check" />
+						android:layout_marginTop="10dp" android:text="@string/button_extra_check" /-->
 				    <TextView android:id="@+id/textViewExtraResult"
 						android:layout_width="wrap_content" android:layout_height="wrap_content"
-						android:layout_below="@id/buttonExtraCheck" android:gravity="left"
+						android:layout_below="@id/spinExtraItem" android:gravity="left"
 						android:layout_marginTop="10dp" android:text="" />
 				</RelativeLayout>
 
