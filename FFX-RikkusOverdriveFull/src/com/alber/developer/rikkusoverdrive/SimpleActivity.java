@@ -9,11 +9,11 @@ import java.io.OutputStream;
 import java.util.ArrayList;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
-import android.view.DragEvent;
 import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
-import android.view.View.OnDragListener;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemSelectedListener;
 import android.widget.Button;
@@ -274,6 +274,22 @@ th.setMotionEventSplittingEnabled(true);
 		// Inflate the menu; this adds items to the action bar if it is present.
 		getMenuInflater().inflate(R.menu.simple, menu);
 		return true;
+	}
+	
+	/**
+	 * Método sobrecargado que muestra la opción seleccionada.
+	 */
+	@Override
+	public boolean onOptionsItemSelected(MenuItem item) {
+		switch(item.getItemId()){
+		
+		case R.id.action_about:
+			Intent a = new Intent("com.alber.developer.rikkusoverdrive.About");
+			startActivity(a);
+			break;
+		}
+
+		return false;
 	}
 
 	@Override

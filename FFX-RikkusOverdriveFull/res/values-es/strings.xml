@@ -2,7 +2,9 @@
 <resources>
 
     <string name="app_name">FFX Rikkus Overdrive</string>
-    <string name="action_settings">Settings</string>
+    <string name="action_about">Acerca de</string>
+    <string name="about_title">FFX Rikkus Overdrive Beta</string>
+    <string name="about">Todas las marcas y los elementos de propiedad y los materiales son propiedad de sus respectivos dueños.\n\nNo me afilié con Square Enix Holdings Co., Ltd. o cualquier filial de ésta. Como tal, \"FFX Rikkus Overdrive\" es una aplicación no oficial.\n\nEsta aplicación es 100% gratis, sin publicidad y completamente funcional. Si encuentras un problema o un posible error, no dudes en ponerte en contacto conmigo: alber.developer@gmail.com</string>
     <string name="first_item">Elige el primer objeto</string>
     <string name="second_item">Elige el segundo objeto</string>
     <string name="button_check">¡Ver resultado!</string>
