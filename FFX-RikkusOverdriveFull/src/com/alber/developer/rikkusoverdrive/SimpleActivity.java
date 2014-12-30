@@ -10,8 +10,10 @@ import java.util.ArrayList;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.view.DragEvent;
 import android.view.Menu;
 import android.view.View;
+import android.view.View.OnDragListener;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemSelectedListener;
 import android.widget.Button;
@@ -102,6 +104,7 @@ public class SimpleActivity extends Activity implements View.OnClickListener,
 	private void setUpTabHost() {
 		th = (TabHost) findViewById(R.id.tabhost);
 		th.setup();
+th.setMotionEventSplittingEnabled(true);
 
 		TabSpec specs = th.newTabSpec("SimpleOverdrive");
 		specs.setContent(R.id.tabSimpleOverdrive);
